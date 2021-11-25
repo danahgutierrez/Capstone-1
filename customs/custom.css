@@ -1,23 +1,17 @@
-*{
-	margin: 0;
-	padding: 0;
-
-}
-
 body{
 	font-family: sans-serif;
 }
 
-#nav-bar{
-	position: sticky;
-	top: 0;
-	/*stack*/
-	z-index: 10; 
-}
+*{
+ 	margin: 0 !important;
+ }
+
+/*navbar*/
 .navbar{
 	background-color: #515151;
-	padding: 0 !important;
+	padding: 5px !important;
 }
+
 .navbar-nav li{
 	padding: 0 10px;
 
@@ -26,71 +20,120 @@ body{
 .navbar-nav li a{
 	color: #fff !important;
 	font-weight: 600;
-	float: right;
-	text-align: ; left;
-}
-#hero-banner{
-	background-color: #7a8aff;
-	color: white;
-	padding-top: 5%;
+	float: center !important;
+	text-align: left;
 }
 
-.banner-title{
-	font-size: 40px;
-	font-weight: 600;
-	margin-top: 50px;
+/*navbar*/
+
+/*jumbotron*/
+
+.jumbotron{
+	background-color: skyblue;
 }
 
-
-.navbar-brand{
-	color: white;
-	font-weight: 200px;
-}
-
-.row{
-	margin: 10px 0px;
-	padding: 15px;
-}
+.display{
+	padding: 250px 150px 100px 100px !important;
 
 }
-#carouselExampleControls{
-	margin: 30px 0px;
-	padding: 1%;
+
+.display h5{
+	font-size: 65px;
+	font-weight: 200;
+	padding: 5px 0 0 0;
 }
 
-.card-img-overlay h9{
-	font-size: 30px;
-	padding: 10px 0;
+.display p{
+	font-size: 20px;
+	font-style: italic;
 }
 
-.card-img-overlay p{
-	font-size: 15px;
-	padding: 10px 0;
-	}
-
-.card-img-overlay{
-	margin: 150px;
-}
-
-#carouselExampleControls{
-	margin: 20px 0;
-}
-
-.btn{
+.display button{
+	font-size: 12px;
 	background-color: #00477b;
 	color: white;
+	margin: 10px 0 !important;
+	padding: 5px;
 }
 
- .about-me{
-	background-color: #515151;
-	color: white;
-	margin: 0px 75px;
-	padding: 5%;
-	text-align: center;
+/*jumbotron*/
+
+/*--about--*/
+
+.row{
+	padding: 20 20;
+	margin: 50px 50px 50px 50px !important;
+}
+
+.about-rows{
+	background-color: darkgray;
+	margin: 50px 50px 50px 50px;
+	padding: 20px;
 }
 
 .img-fluid{
-        max-width: 100%;
-        max-height: 100%;
-        display: block; 
-    }
+	display: block;
+  	margin-left: auto !important;
+ 	margin-right: auto !important;
+ 	margin-top: auto !important;
+ 	margin-bottom: auto !important;
+ 	width: 40%;
+}
+
+.about-me{
+	background-color: #515151;
+	color: whitesmoke;
+	padding: 20px;
+	font-size: 35px;
+	text-align: center;
+	margin: 50px 50px 50px 50px
+}
+
+.banner-title{
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.container-fluid p{
+	font-size: 25px;
+}
+
+.container-fluid{
+
+}
+/*about*/
+
+
+
+/*projects*/
+.card-body{
+	align-content: center;
+	text-align: center;
+}
+
+.card-title{
+	font-size: 40px;
+	padding: 10px;
+}
+
+.card-text{
+	color: red;
+	padding: 10px;
+}
+
+.card-img-top{
+	padding: 10px;
+}
+/*projects*/
+
+
+
+
+
+
+/*footer*/
+
+.page-footer{
+	background-color: #515151;
+}
+/*footer*/
