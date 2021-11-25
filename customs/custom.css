@@ -127,7 +127,33 @@ body{
 /*projects*/
 
 
+/*contact me*/
 
+.card-body-form{
+	align-content: flex-end;
+	padding: 20px;
+}
+
+.card-body-form label{
+	padding: 10px 0px;
+}
+
+.textarea{
+	width: 100%;
+	padding: 5px;
+}
+
+.map-container-google-1{
+	align-content: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.contact-me{
+	align-content: space-between;
+}
+
+/*contact me*/
 
 
 
