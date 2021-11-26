@@ -56,26 +56,33 @@ body{
 	background-repeat: no-repeat;
 }
 
-.display{
+/*.display{
 	margin: 30px 20px 50px 40px;
 	border-radius: 0px 50px 0px 50px;
 	 border-color: #2e4668;
 	 margin:  30px 60px;
-}
+}*/
 
 
-.display h5{
+.header h5{
 	font-size: 65px;
-	font-weight: 200;
+	font-weight: 100;
 	padding: 5px 0 0 0;
+	color: white !important;
+	text-decoration: underline overline solid white;
+	-webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #515151;
 }
 
-.display p{
+.header p{
 	font-size: 20px;
 	font-style: italic;
+	color: white;
+	-webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: white;
 }
 
-.display button{
+.header button{
 	font-size: 12px;
 	background-color: #00477b;
 	color: white;
@@ -149,6 +156,7 @@ body{
  	width: 40%;
  	border-radius: 50%;
  	border: 5px solid #515151;
+ 	opacity: 50%;
 }
 
 .about-me{
@@ -271,3 +279,15 @@ color: white;
 ;
 }
 /*footer*/
+
+.header > img {
+  width: 100%;
+}
+.content-header {
+  background: none repeat scroll 0 0;
+  top: 0 !important;
+  left: 0 !important;
+  margin-left: 13% !important;
+  margin-top: 35% !important;
+  position: absolute;
+}
