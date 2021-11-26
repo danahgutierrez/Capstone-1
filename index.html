@@ -9,16 +9,26 @@
 
     <!-- customs styles -->
     <link rel="stylesheet" type="text/css" href="customs/custom.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito:wght@200&family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
 </head>
 
 
 <body>
+  
       <!-- navbar section -->
 
     <section id="nav-bar">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
+                <a class="navbar-brand" href="/">
+                <div class="logo-image">
+                     <img src="images/logoo.png" id="logo">
+                    </div>
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -48,13 +58,14 @@
 
  <!-- start of carousel -->
  <section class="jumbotron">
-    <div class="container">
-        <div class="display">
+    <div class="bg-img-background">
+            <img src="images/b.jpg" width="100%">
+    </div>
+            <div class="display" id="display">
             <h5 class="display-4">Danah Kayla Gutierrez</h5>
              <p class="lead">I am a website developer and software engineer. </p>
              <button type="button" class="btn-project"> View My Projects </button>
         </div>
-    </div>
  </section>
  
   
@@ -69,50 +80,18 @@
         </div>
         <div class="about-rows">
         <div class="row">
-            <div class="col-md-6">
-                <p class="banner-title">Lorem ipsum</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                roident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="about-content col-md-6">
+                <p class="banner-title">Meet Danah!</p>
+                <br>
+                <p>Developer. Engineer. Goal-setter.</p>
+                <br>
+                <p>I hold a bachelor's degree in Electronics Engineering and now currently pursuing web development and software engineering. I am currently studying at Zuitt.</p>
+                <br> <p>I have a diverse skills set from HTML and CSS all the way to engineering related programming language such as MATLAB and Arduino.</p>
             </div>
 
-            <div class="col-md-6">
-                <img src="images/sample.jpg" class="img-fluid">
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-6">
-                <p class="banner-title">Lorem ipsum</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                roident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-
-            <div class="col-md-6">
-                <img src="images/sample.jpg" class="img-fluid">
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-6">
-                <p class="banner-title">Lorem ipsum</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                roident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-
-            <div class="col-md-6">
-                <img src="images/sample.jpg" class="img-fluid">
+            <div class="image-button col-md-6">
+                <img src="images/me.jpg" class="img-fluid-me">
+                <button type="button" class="btn-resume"> Download my Resume </button>
             </div>
         </div>
         </div>
@@ -129,6 +108,9 @@
             <div class="col-md-12">
                 <h5 class="about-me">Projects</h5>
             </div>
+            <br>
+            <hr>
+            <br>
         </div>
     <div class="row">
         <div class="col-md-4" >
@@ -136,11 +118,11 @@
                 <div class="card" >
                     <div class="card-body">
                         <img src="images/csp.png" class="card-img-top" alt="...">
-                         <h2 class="card-title">Capstone 1</h2>
-                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                         <h2 class="card-title"><strong>Capstone 1</strong></h2>
+                         <h5 class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                         quis nostrud exercitation ullamco laboris nisi ut aliquip   ex ea commodo
-                        consequat.</p>
+                        consequat.</h5>
                     </div>
                 </div>
             </div>
@@ -150,11 +132,11 @@
                 <div class="card" >
                     <div class="card-body">
                          <img src="images/csp.png" class="card-img-top" alt="...">
-                         <h2 class="card-title">Capstone 2</h2>
-                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                         <h2 class="card-title"><strong>Capstone 2</strong></h2>
+                         <h5 class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                         quis nostrud exercitation ullamco laboris nisi ut aliquip   ex ea commodo
-                        consequat.</p>
+                        consequat.</h5>
                     </div>
                 </div>
             </div>
@@ -164,11 +146,11 @@
                 <div class="card" >
                     <div class="card-body">
                         <img src="images/csp.png" class="card-img-top" alt="...">
-                          <h2 class="card-title">Capstone 3</h2>
-                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                          <h2 class="card-title"><strong>Capstone 3</strong></h2>
+                         <h5 class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                         quis nostrud exercitation ullamco laboris nisi ut aliquip   ex ea commodo
-                        consequat.</p>
+                        consequat.</h5>
                     </div>
                 </div>
             </div>
@@ -177,15 +159,19 @@
 </section>
 <!-- projects -->
 
-
 <!-- contact me -->
 <section id="contact-me">
     <div class="container-fluid">
+        <div class="col-md-12">
+                <h5 class="about-me">How to contact me?</h5>
+            </div>
+
         <div class="row">
             <div class="col-md-6">
                 <div class="card">
                     <h5 class="card-header">Contact Me</h5>
                 </div>
+                <br>
                 <div class="card-body-form">
                     <form method="" action= "">
                         <label for="name">Name:</label><br>
@@ -205,8 +191,8 @@
 
 <!--Google Maps-->
         <div class="col-md-6">
-            <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
-             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.4101322928077!2d121.0414892141074!3d14.63264508978205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b7f5db7f5e3f%3A0xe15d2d6a4453ed00!2sZuitt%20QC!5e0!3m2!1sen!2sph!4v1637826909158!5m2!1sen!2sph" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <div  class="z-depth-1-half map-container" style="height: 500px">
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.4101322928077!2d121.0414892141074!3d14.63264508978205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b7f5db7f5e3f%3A0xe15d2d6a4453ed00!2sZuitt%20QC!5e0!3m2!1sen!2sph!4v1637826909158!5m2!1sen!2sph" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy" id="map-container-google-1"></iframe>
             </div>
         </div>
         </div>
@@ -218,12 +204,8 @@
 <!-- contact me -->
 
 
-
-
-
-
 <!-- footer -->
-<footer class="page-footer font-small white pt-4 color-white">
+<footer class="page-footer font-small blue pt-4 color-white">
 
   <!-- Copyright -->
   <div class="footer-copyright text-center py-3">
@@ -238,10 +220,12 @@
 
 
 
-
 </body>
 <!-- Bootstrap JS Files -->
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </html>
+
+
+

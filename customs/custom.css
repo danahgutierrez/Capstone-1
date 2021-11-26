@@ -1,5 +1,7 @@
 body{
 	font-family: sans-serif;
+	background-color: #eee;
+;
 }
 
 *{
@@ -7,8 +9,22 @@ body{
  }
 
 /*navbar*/
+
+#logo{
+	display: inline-block;
+	width: 80px;
+    height: 80px;
+    margin: 0%;
+    padding: 0;
+}
+.logo-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
 .navbar{
-	background-color: #515151;
+	background-color: #2e4668
+;
 	padding: 5px !important;
 }
 
@@ -24,18 +40,29 @@ body{
 	text-align: left;
 }
 
+
 /*navbar*/
 
 /*jumbotron*/
 
 .jumbotron{
-	background-color: skyblue;
+
+}
+.bg-img-background{
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .display{
-	padding: 250px 150px 100px 100px !important;
-
+	margin: 30px 20px 50px 40px;
+	border-radius: 0px 50px 0px 50px;
+	 border-color: #2e4668;
+	 margin:  30px 60px;
 }
+
 
 .display h5{
 	font-size: 65px;
@@ -66,10 +93,51 @@ body{
 }
 
 .about-rows{
-	background-color: darkgray;
-	margin: 50px 50px 50px 50px;
+	margin: 10px 0;
 	padding: 20px;
+
 }
+
+.about-content{
+	border-radius: 0px 50px 0px 50px;
+	 border-color: #2e4668;
+	 margin:  30px 60px;
+}
+
+.about-rows p{
+	text-align: center !important;
+
+	}
+
+.img-fluid-me{
+	display: inline-flex;
+  	margin-left: auto !important;
+ 	margin-right: auto !important;
+ 	margin-top: 40px;
+ 	margin-bottom: 40px;
+ 	align-content: center;
+ 	width: 60%;
+ 	border-radius: 50%;
+ 	border: 5px solid #515151;
+ }
+
+.btn-resume{
+	background-color: #dca85c;
+	color: darkslategray;
+ 	width: 50%;
+ 	margin-left: auto !important;
+ 	margin-right: auto !important;
+ 	margin-top: 40px;
+ 	margin-bottom: 40px;
+ 	padding: 10px;
+ }
+
+ .image-button{
+ 	display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+ }
 
 .img-fluid{
 	display: block;
@@ -77,28 +145,30 @@ body{
  	margin-right: auto !important;
  	margin-top: auto !important;
  	margin-bottom: auto !important;
+ 	align-content: center;
  	width: 40%;
+ 	border-radius: 50%;
+ 	border: 5px solid #515151;
 }
 
 .about-me{
-	background-color: #515151;
+	background-color: #2e4668;
 	color: whitesmoke;
-	padding: 20px;
-	font-size: 35px;
+	padding: 10px;
+	font-size:150%;
 	text-align: center;
-	margin: 50px 50px 50px 50px
+	margin: 100px;
+	border-radius: 30%;
 }
 
 .banner-title{
-	font-size: 30px;
+	font-size: 100%vh;
 	font-weight: 600;
 }
 
+
 .container-fluid p{
 	font-size: 25px;
-}
-
-.container-fluid{
 
 }
 /*about*/
@@ -111,18 +181,44 @@ body{
 	text-align: center;
 }
 
+.card-group{
+	margin: 20px 0px;
+
+}
+
+.card{
+	 border-radius: 0px 50px 0px 50px;
+	 border-color: #2e4668;
+	 margin:  30px 60px;
+}
+
 .card-title{
 	font-size: 40px;
 	padding: 10px;
+	font-size: 150%;
+	color: #2e4668;
 }
 
-.card-text{
-	color: red;
-	padding: 10px;
+.card-header{
+	background-color: #2c4c66
+;
+color: white;
+padding: 20px;
+font-size: 	23px;
+
 }
+
+.card-body-form{
+	background-color: #2c4c66;
+margin: 30px 0;
+color: white;
+}
+
 
 .card-img-top{
 	padding: 10px;
+	border-radius: 50%;
+ 	border: 5px solid #515151;
 }
 /*projects*/
 
@@ -143,10 +239,21 @@ body{
 	padding: 5px;
 }
 
-.map-container-google-1{
-	align-content: center;
-	margin-right: auto;
-	margin-left: auto;
+#map-container-google-1{
+	/*display: block;
+  	margin-left: auto !important;
+ 	margin-right: auto !important;
+ 	margin-top: auto !important;
+ 	margin-bottom: auto !important;
+ 	width: 40%;*/
+ 	display: inline-flex;
+  	margin-left: auto !important;
+ 	margin-right: auto !important;
+ 	margin-top: 40px;
+ 	margin-bottom: 40px;
+ 	align-content: center;
+ 	width: 100%;
+ 	border: 5px solid #515151;
 }
 
 .contact-me{
@@ -160,6 +267,7 @@ body{
 /*footer*/
 
 .page-footer{
-	background-color: #515151;
+	background-color: #2e4668
+;
 }
 /*footer*/
